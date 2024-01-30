@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F8E9"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="@string/velg_antall_sp_rsm_l"
+        android:textColor="#00796B"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spinnerAntallSporsmol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_spinner"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:text="@string/velg_sprok"
+        android:textColor="#00796B"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spinnerSprok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_spinner"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/lagreBekreftelse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/lagreKnapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/rounded_button2"
+        android:text="@string/lagre"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/tilbakeKnapp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/rounded_button2"
+        android:text="@string/tilbake_til_hovedmeny"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

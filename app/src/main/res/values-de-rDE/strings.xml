@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MathApp4</string>
+    <string name="preferanser">Einstellungen</string>
+    <string name="om_spillet">Über das Spiel</string>
+    <string name="start_spill">Spiel starten</string>
+    <string name="_0">0</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="skriv_svar">Antwort hier eingeben</string>
+    <string name="angre_knapp">Rückgängig-Taste</string>
+    <string name="angre">Rückgängig</string>
+    <string name="hjelp">Hilfe</string>
+    <string name="neste_sp_rsm_l">Nächste Frage</string>
+    <string name="pr_v_igjen">Erneut versuchen</string>
+    <string name="sjekk_svar_knapp">Antwort überprüfen</string>
+    <string name="velkommen">Willkommen bei MatheSpaß, einer unterhaltsamen und ansprechenden Möglichkeit, Mathematik zu lernen!</string>
+    <string name="hvordan_spille">Wie man spielt:\nKlicken Sie auf \'Spiel starten\' und lösen Sie die Mathematikaufgaben so schnell wie möglich!</string>
+    <string name="funksjoner">Funktionen:\nLernen Sie Addition auf einfache Weise!\nWählen Sie die Anzahl der Fragen, die Sie beantworten möchten!\nWählen Sie zwischen Norwegisch oder Deutsch!\nErhalten Sie Feedback zu Ihren Antworten!</string>
+    <string name="utvikler">Entwickler: Developia AS/ Sultan Avtajev\nKontakt: E-Mail: s199219@oslomet.no\nVersionsnummer: 1.0.0</string>
+    <string name="velg_antall_sp_rsm_l">Anzahl der Fragen wählen:</string>
+    <string name="velg_sprok">Sprache wählen:</string>
+    <string name="tilbake_til_hovedmeny">Zurück zum Hauptmenü</string>
+    <string name="lagre">Speichern</string>
+    <string name="vennligst_skriv_et_svar">Bitte geben Sie eine Antwort ein.</string>
+    <string name="antall_feil">Anzahl der Fehler:</string>
+    <string name="antall_riktige">Anzahl der richtigen Antworten:</string>
+    <string name="antall_sp_rsm_l_besvart">Anzahl der beantworteten Fragen:</string>
+    <string name="tid_brukt">Verwendete Zeit:</string>
+    <string name="tilbake_til_hovedmeny2">Zurück zum Hauptmenü</string>
+    <string name="ingen_flere">Keine weiteren Fragen verfügbar</string>
+    <string name="riktig_svar_godt_gjort">Richtige Antwort! Gut gemacht!</string>
+    <string name="feil_svar_prov">Falsche Antwort. Versuchen Sie es erneut oder gehen Sie zur nächsten Frage.</string>
+    <string name="tilbake_til_hovedmeny3">Zurück zum Hauptmenü</string>
+    <string name="tid_brukt2">Verwendete Zeit: %s</string>
+    <string name="totalt_sp_rsm_l">Gesamte Fragen: %d</string>
+    <string name="riktige_svar">Richtige Antworten: %d</string>
+    <string name="feil_svar">Falsche Antworten: %d</string>
+    <string name="resultat">Richtige Antwort! Gut gemacht! Der Test ist jetzt abgeschlossen. Klicken Sie auf die Ergebnis-Taste, um zu sehen, wie es gelaufen ist.</string>
+    <string name="se_resultat">Ergebnis sehen</string>
+    <string name="test_ferdig">Falsche Antwort. Der Test ist jetzt abgeschlossen. Versuchen Sie es erneut oder klicken Sie auf die Ergebnis-Taste, um zu sehen, wie es gelaufen ist.</string>
+    <string name="innstillinger">Die neuen Einstellungen wurden gespeichert!</string>
+    <string name="tysk">Deutsch</string>
+    <string name="norsk">Norwegisch</string>
+
+    <string-array name="sporsmol">
+        <item>1 + 1 = ?</item>
+        <item>2 + 3 = ?</item>
+        <item>4 + 2 = ?</item>
+        <item>3 + 3 = ?</item>
+        <item>5 + 1 = ?</item>
+        <item>2 + 4 = ?</item>
+        <item>6 + 2 = ?</item>
+        <item>3 + 5 = ?</item>
+        <item>4 + 4 = ?</item>
+        <item>7 + 1 = ?</item>
+        <item>5 + 3 = ?</item>
+        <item>6 + 3 = ?</item>
+        <item>4 + 5 = ?</item>
+        <item>7 + 2 = ?</item>
+        <item>8 + 1 = ?</item>
+    </string-array>
+
+    <string-array name="hjelpetekst">
+        <item>Lege einen Finger zu einem anderen Finger dazu. Wie viele Finger hast du jetzt?</item>
+        <item>Stell dir vor, du hast 2 Äpfel und bekommst 3 dazu. Wie viele Äpfel hast du dann?</item>
+        <item>Wenn du 4 Bleistifte hast und 2 dazu bekommst, wie viele Bleistifte hast du insgesamt?</item>
+        <item>Du hast 3 Murmeln und findest 3 weitere auf dem Boden. Wie viele Murmeln hast du jetzt?</item>
+        <item>Du hast 5 Aufkleber und bekommst 1 dazu. Wie viele Aufkleber hast du dann?</item>
+        <item>Du hast 2 Ballons und bekommst 4 weitere zu deinem Geburtstag. Wie viele Ballons hast du jetzt?</item>
+        <item>Du hast 6 Bücher im Regal und fügst 2 weitere hinzu. Wie viele Bücher hast du im Regal?</item>
+        <item>Du hast 3 Kreiden und bekommst 5 weitere von einem Freund. Wie viele Kreiden hast du insgesamt?</item>
+        <item>Du hast 4 Tassen auf dem Tisch und stellst 4 weitere daneben. Wie viele Tassen sind jetzt auf dem Tisch?</item>
+        <item>Du hast 7 Legosteine und fügst 1 weiteren hinzu. Wie viele Legosteine hast du jetzt?</item>
+        <item>Du hast 5 Süßigkeiten und bekommst 3 weitere von einem Freund. Wie viele Süßigkeiten hast du insgesamt?</item>
+        <item>Du hast 6 Buntstifte und bekommst 3 weitere. Wie viele Buntstifte hast du jetzt?</item>
+        <item>Du hast 4 Aufkleber und bekommst 5 weitere. Wie viele Aufkleber hast du dann?</item>
+        <item>Du hast 7 Bleistifte und bekommst 2 weitere. Wie viele Bleistifte hast du insgesamt?</item>
+        <item>Du hast 8 Kreiden und bekommst 1 weitere. Wie viele Kreiden hast du jetzt?</item>
+    </string-array>
+
+    <!-- Svar -->
+    <string-array name="svar">
+        <item>2</item>
+        <item>5</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>9</item>
+        <item>9</item>
+        <item>9</item>
+        <item>9</item>
+    </string-array>
+
+    <string-array name="antallSporsmol">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="sprok">
+        <item>Norsk</item>
+        <item>Tysk</item>
+    </string-array>
+</resources>

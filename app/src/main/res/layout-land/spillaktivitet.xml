@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF3E0"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!-- Venstre del av skjermen -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- ProgressBar -->
+        <ProgressBar
+            android:id="@+id/fremdriftBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:max="100"
+            android:progress="0"
+            android:progressTint="#FF5722" />
+
+        <!-- Spørsmålstekst -->
+        <TextView
+            android:id="@+id/sporsmolText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="34dp"
+            android:gravity="center_horizontal"
+            android:textColor="#4CAF50"
+            android:textSize="28sp" />
+
+        <!-- Svar-input -->
+        <EditText
+            android:id="@+id/svarInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="@string/skriv_svar"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:textColorHint="#795548" />
+
+        <TextView
+            android:id="@+id/tilbakemeldingText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/actionButtonContainer"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text=""
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- Høyre del av skjermen -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- Nummertastatur -->
+        <GridLayout
+            android:id="@+id/numberButtonLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:columnCount="3"
+            android:rowCount="4">
+
+            <!-- Nummerknapper (0-9) -->
+            <Button
+                android:id="@+id/knapp1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/_1"
+                android:textColor="#FFFFFF" />
+
+
+            <!-- Nummerknapp 2 -->
+            <Button
+                android:id="@+id/knapp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/_2"
+                android:textColor="#FFFFFF" />
+
+            <!-- Nummerknapp 3 -->
+            <Button
+                android:id="@+id/knapp3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/_3"
+                android:textColor="#FFFFFF" />
+
+            <!-- Nummerknapp 4 -->
+            <Button
+                android:id="@+id/knapp4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/_4"
+                android:textColor="#FFFFFF" />
+
+            <!-- Nummerknapp 5 -->
+
+            <Button
+                android:id="@+id/knapp5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/_5"
+                android:textColor="#FFFFFF" />
+
+            <!-- Nummerknapp 6 -->
+            <Button
+                android:id="@+id/knapp6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/_6"
+                android:textColor="#FFFFFF" />
+
+            <!-- Nummerknapp 7 -->
+            <Button
+                android:id="@+id/knapp7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/_7"
+                android:textColor="#FFFFFF" />
+
+            <!-- Nummerknapp 8 -->
+            <Button
+                android:id="@+id/knapp8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/_8"
+                android:textColor="#FFFFFF" />
+
+            <!-- Nummerknapp 9 -->
+            <Button
+                android:id="@+id/knapp9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/_9"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/knapp0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="3"
+                android:layout_column="1"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/_0"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/knappAngre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="3"
+                android:layout_column="2"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_button"
+                android:contentDescription="@string/angre_knapp_"
+                android:text="@string/_angre"
+                android:textColor="#FFFFFF" />
+
+        </GridLayout>
+
+        <!-- Knapper for sjekking av svar, hjelp, osv. -->
+        <LinearLayout
+            android:id="@+id/actionButtonContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:orientation="horizontal">
+
+            <!-- Hjelp Button -->
+            <Button
+                android:id="@+id/hjelpKnapp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/hjelp"
+                android:textColor="#FFFFFF" />
+
+            <!-- Sjekk svar Button -->
+            <Button
+                android:id="@+id/sjekkSvarKnapp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/sjekk_svar_knapp"
+                android:textColor="#FFFFFF" />
+
+            <!-- Prøv igjen Button -->
+            <Button
+                android:id="@+id/provKnapp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/pr_v_igjen"
+                android:textColor="#FFFFFF"
+                android:visibility="gone" />
+
+            <!-- Neste spørsmål Button -->
+            <Button
+                android:id="@+id/nesteKnapp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/neste_sp_rsm_l"
+                android:textColor="#FFFFFF"
+                android:visibility="gone" />
+
+            <!-- Se resultat Button -->
+            <Button
+                android:id="@+id/resultatKnapp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/se_resultat"
+                android:textColor="#FFFFFF"
+                android:visibility="gone" />
+
+            <!-- Restart Button -->
+            <Button
+                android:id="@+id/tilbakeKnapp5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/restart"
+                android:textColor="#FFFFFF"
+                android:visibility="gone" />
+
+            <!-- Knappene legges her, akkurat som i den opprinnelige koden -->
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+

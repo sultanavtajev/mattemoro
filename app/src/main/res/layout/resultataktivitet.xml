@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF3E0"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/spillTid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="@string/tid_brukt"
+        android:textColor="#E65100"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/totaltAntall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="@string/antall_sp_rsm_l_besvart"
+        android:textColor="#F4511E"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/riktigeAntall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="@string/antall_riktige"
+        android:textColor="#43A047"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/feilAntall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="@string/antall_feil"
+        android:textColor="#E91E63"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/tilbakeKnapp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/tilbake_til_hovedmeny2"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+</LinearLayout>

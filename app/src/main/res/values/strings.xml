@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MathApp4</string>
+    <string name="preferanser">Preferanser</string>
+    <string name="om_spillet">Om spillet</string>
+    <string name="start_spill">Start spill</string>
+    <string name="_0">0</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="skriv_svar">Skriv svar her</string>
+    <string name="angre">Angre</string>
+    <string name="hjelp">Hjelp</string>
+    <string name="neste_sp_rsm_l">Neste spørsmål</string>
+    <string name="pr_v_igjen">Prøv igjen</string>
+    <string name="sjekk_svar_knapp">Sjekk svar</string>
+    <string name="velkommen">Velkommen til MatteMoro, en morsom og engasjerende måte å lære matte på!</string>
+    <string name="hvordan_spille">Hvordan spille:\nTrykk på \'Start spill\' og løs matteoppgavene så raskt du kan!</string>
+    <string name="funksjoner">Funksjoner:\nLær addisjon på en enkel måte!\nVelg antall spørsmål du vil løse!\nVelg mellom norsk eller tysk språk!\nFå tilbakemelding på svarene dine!\nFå hjelp på hveroppgave!\nObs! Det er kun ditt første forsøk på hver oppgave som blir telt med i resultatet. </string>
+    <string name="utvikler">Utvikler: Developia AS/ Sultan Avtajev\nKontakt: E-post: s199219@oslomet.no\nVersjonsnummer: 1.0.0</string>
+    <string name="velg_antall_sp_rsm_l">Velg antall spørsmål:</string>
+    <string name="velg_sprok">Velg språk:</string>
+    <string name="tilbake_til_hovedmeny">Tilbake til hovedmeny</string>
+    <string name="lagre">Lagre</string>
+    <string name="vennligst_skriv_et_svar">Vennligst skriv et svar.</string>
+    <string name="antall_feil">Antall feil:</string>
+    <string name="antall_riktige">Antall riktige:</string>
+    <string name="antall_sp_rsm_l_besvart">Antall spørsmål besvart:</string>
+    <string name="tid_brukt">Tid brukt:</string>
+    <string name="tilbake_til_hovedmeny2">Tilbake til hovedmeny</string>
+    <string name="ingen_flere">Ingen flere spørsmål tilgjengelige</string>
+    <string name="riktig_svar_godt_gjort">Riktig svar! Godt gjort!</string>
+    <string name="feil_svar_prov">Feil svar. Prøv igjen eller gå til neste spøsmål.</string>
+    <string name="tilbake_til_hovedmeny3">Tilbake til hovedmeny</string>
+    <string name="tid_brukt2">Tid brukt: %s</string>
+    <string name="totalt_sp_rsm_l">Totalt spørsmål: %d</string>
+    <string name="riktige_svar">Riktige svar: %d</string>
+    <string name="feil_svar">Feil svar: %d</string>
+    <string name="resultat">Riktig svar! Godt gjort! Testen er nå ferdig. Trykk på resultat-knappen for å se hvordan det gikk.</string>
+    <string name="se_resultat">Se resultat</string>
+    <string name="test_ferdig">Feil svar. Testen er nå ferdig. Prøv igjen eller trykk på resultat-knappen for å se hvordan det gikk.</string>
+    <string name="innstillinger">De nye innstillingene er lagret!</string>
+    <string name="tysk">Tysk</string>
+    <string name="norsk">Norsk</string>
+    <string name="restart">Restart</string>
+    <string name="angre_">Angre</string>
+    <string name="_angre">Angre</string>
+    <string name="angre_knapp_">angre_knapp</string>
+    <!-- Addisjonsoppgaver -->
+    <string-array name="sporsmol">
+        <item>1 + 1 = ?</item>
+        <item>2 + 3 = ?</item>
+        <item>4 + 2 = ?</item>
+        <item>3 + 3 = ?</item>
+        <item>5 + 1 = ?</item>
+        <item>2 + 4 = ?</item>
+        <item>6 + 2 = ?</item>
+        <item>3 + 5 = ?</item>
+        <item>4 + 4 = ?</item>
+        <item>7 + 1 = ?</item>
+        <item>5 + 3 = ?</item>
+        <item>6 + 3 = ?</item>
+        <item>4 + 5 = ?</item>
+        <item>7 + 2 = ?</item>
+        <item>8 + 1 = ?</item>
+    </string-array>
+    <!-- Hjelpetekster -->
+    <string-array name="hjelpetekst">
+        <item>Legg sammen en finger og en annen finger. Hvor mange fingre har du nå?</item>
+        <item>Tenk deg at du har 2 epler og får 3 til. Hvor mange epler har du da?</item>
+        <item>Hvis du har 4 blyanter og får 2 til, hvor mange blyanter har du totalt?</item>
+        <item>Du har 3 klinkekuler og finner 3 til på bakken. Hvor mange klinkekuler har du nå?</item>
+        <item>Du har 5 klistremerker og får 1 til. Hvor mange klistremerker har du da?</item>
+        <item>Du har 2 ballonger og får 4 til på bursdagen din. Hvor mange ballonger har du nå?</item>
+        <item>Du har 6 bøker i hyllen og legger til 2 til. Hvor mange bøker har du i hyllen?</item>
+        <item>Du har 3 kritt og får 5 til fra en venn. Hvor mange kritt har du totalt?</item>
+        <item>Du har 4 kopper på bordet og setter 4 til ved siden av. Hvor mange kopper er det på bordet nå?</item>
+        <item>Du har 7 legoklosser og legger til 1 til. Hvor mange legoklosser har du nå?</item>
+        <item>Du har 5 godterier og får 3 til fra en venn. Hvor mange godterier har du totalt?</item>
+        <item>Du har 6 fargestifter og får 3 til. Hvor mange fargestifter har du nå?</item>
+        <item>Du har 4 klistremerker og får 5 til. Hvor mange klistremerker har du da?</item>
+        <item>Du har 7 blyanter og får 2 til. Hvor mange blyanter har du totalt?</item>
+        <item>Du har 8 kritt og får 1 til. Hvor mange kritt har du nå?</item>
+    </string-array>
+    <!-- Svar -->
+    <string-array name="svar">
+        <item>2</item>
+        <item>5</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>8</item>
+        <item>9</item>
+        <item>9</item>
+        <item>9</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="antallSporsmol">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="sprok">
+        <item>Norsk</item>
+        <item>Tysk</item>
+    </string-array>
+</resources>
